@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #8606b9;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.animated-title {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+main {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile, .hobbies {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #e9ecef;
+    transition: transform 0.3s;
+}
+
+.profile:hover, .hobbies:hover {
+    transform: scale(1.02);
+}
+
+.profile-image {
+    width: 150px; /* Ukuran gambar */
+    height: auto; /* Menjaga aspek rasio */
+    border-radius: 5%; /* Membuat gambar sedikit melengkung */
+    display: block;
+    margin: 0 auto 20px; /* Memusatkan gambar */
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
